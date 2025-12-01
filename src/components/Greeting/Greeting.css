@@ -1,0 +1,31 @@
+.greeting {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom right,
+    orange 0 50%,
+    green 50% 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text; /* required WebKit-based browsers*/
+  color: transparent;
+  animation: heart-beat 2s linear 1ms infinite;
+}
+
+/* .greeting:hover {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.4));
+} */
+
+@keyframes heart-beat {
+  0% {
+    font-size: 2rem;
+    opacity: 1;
+  }
+  50% {
+    font-size: 2.5rem;
+    opacity: 0.5;
+  }
+  100% {
+    font-size: 2rem;
+    opacity: 1;
+  }
+}
