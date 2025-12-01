@@ -4,7 +4,7 @@ import Greeting from "./components/Greeting/Greeting";
 function App() {
   return (
     <>
-      <Greeting /> <hr />
+      <Greeting greeting_world={"NAMASTE WORLD"} /> <hr />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import "./Greeting.css";
 
-export default function Greeting() {
-  return <h1 className="greeting">NAMASTE WORLD</h1>;
+export default function Greeting({ greeting_world }) {
+  return <h1 className="greeting">{greeting_world}</h1>;
 }
